@@ -16,21 +16,10 @@ public class Main {
             System.out.println("В наличии: " + productsArray[i].availability);
             System.out.println();
         }
-    }
-}
-class Product {
-    String name;
-    String date;
-    String manufacturer;
-    String country;
-    double cost;
-    boolean availability;
-    public Product (String name, String date, String manufacturer, String country, int cost, boolean availability) {
-        this.name = name;
-        this.date = date;
-        this.manufacturer = manufacturer;
-        this.country = country;
-        this.cost = cost;
-        this.availability = availability;
+        Park park = new Park();
+        Park.Attraction a1 = park.new Attraction("Гусеница", "09:00-21:00", 500);
+        Park.Attraction a2 = park.new Attraction("Паровозик", "09:00-21:00", 300);
+        a1.printInfo();
+        a2.printInfo();
     }
 }
