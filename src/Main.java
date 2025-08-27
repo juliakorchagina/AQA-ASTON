@@ -4,33 +4,33 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         //1
-        //printThreeWords();
+        printThreeWords();
         //2
-        //checkSumSign();
+        checkSumSign();
         //3
-        //printColor();
+        printColor();
         //4
-        //compareNumbers();
+        compareNumbers();
         //5
-        //System.out.println(sumTenBetweenTwenty(10, -10));
+        System.out.println(sumTenBetweenTwenty(10, -10));
         //6
-        //positiveOrNegative(-2);
+        positiveOrNegative(-2);
         //7
-        //System.out.println(checkPositiveOrNegative(1));
+        System.out.println(checkPositiveOrNegative(1));
         //8
-        //stringPrinter("JAVA", 6);
+        stringPrinter("JAVA", 6);
         //9
-        //System.out.println(LeapYear(2025));
+        System.out.println(LeapYear(2025));
         //10
-        //arrayReplace();
+        arrayReplace();
         //11
-        //arrayHundred();
+        arrayHundred();
         //12
-        //arrayChange();
+        arrayChange();
         //13
-        //arrayDiagonal();
+        arrayDiagonal();
         //14
-        //newArray(6, 3);
+        newArray(6, 3);
     }
 
     /*
